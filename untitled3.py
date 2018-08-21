@@ -11,7 +11,7 @@ from nltk import tokenize
 import numpy as np
 from textblob import TextBlob
 
-file=open("qq.txt","r")
+file=open("nn.txt","r")
 read_file=file.read()
 print('total sentences    ', read_file.count('.'))
 number_of_sentences=read_file.count('.')
